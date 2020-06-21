@@ -1,0 +1,16 @@
+<!--pages/bottom/bottom.wxml-->
+<view class="bottom">
+
+	<view class="bottom-tab" bindtap="first_select">
+		<text class="bottom-tabText" style="color:{{firstcolor}}" >广场</text>
+	</view>
+
+	<view class="centerimg" bindtap="second_select">
+		<image class="bottom-img" src="/pages/images/add.png"></image>
+	</view>
+
+	<view class="bottom-tab" bindtap="third_select">
+		<text class="bottom-tabText" style="color:{{secondcolor}}"> 我的</text>
+	</view>
+
+</view>

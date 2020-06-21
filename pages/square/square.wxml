@@ -1,0 +1,31 @@
+<!--pages/square/square.wxml-->
+
+<scroll-view class="scbg" scroll-y="true">
+	<block wx:for="{{list}}" wx:for-item="item" wx:for-index="index">
+		<view class="box" style="border-bottom:{{(index==list.length-1)?'0':'20rpx solid #efefef'}}">
+			<view class="firstblock">
+				<image class="touxiang" src="{{item.face_url}}"></image>
+				<view class="person">
+					<view class="name">
+						<text class="showname">{{item.username}}</text>
+					</view>
+					<view class="tel">
+						<text class="showtime">{{item.send_timestamp}}</text>
+					</view>
+				</view>
+			</view>
+
+			<view class="secondblock">
+				<text class="content">{{item.content}}</text>
+			</view>
+			<view class="thirdblock">
+				<image class="like" src="{{item.islike==1?'/pages/images/zan-red.png':'/pages/images/zan.png'}}" bindtap="like" id="{{item.id}}"></image>
+				<text class="num" wx:if="{{item.total_likes==0?false:true}}">{{item.total_likes}}</text>
+			</view>
+		</view>
+	</block>
+
+
+
+</scroll-view>
+<include src="/pages/bottom/bottom" />

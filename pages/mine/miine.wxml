@@ -1,0 +1,26 @@
+<!--pages/mine/miine.wxml-->
+<view class="mine-info">
+	<view>
+		<image class="touxiang" src="{{user.face_url}}"></image>
+	</view>
+	<text class="username">{{user.username}}</text>
+</view>
+<scroll-view class="scbg" scroll-y="true">
+	<block class="scbg" wx:if="{{list.length==0?false:true}}" wx:for="{{list}}" wx:for-item="item" wx:for-index="index">
+		<view>
+			<view class="firstblock">
+				<text class="text">{{item.content}}</text>
+				<text class="send-time">{{item.send_timestamp}}</text>
+			</view>
+			<view class="secondblock">
+				<image src="/pages/images/zan.png" class="img-zan"></image>
+				<text class="num">{{item.total_likes}}</text>
+				<view class="delete" bindtap="delete_func" id="{{item.id}}">删除</view>
+			</view>
+		</view>
+
+	</block>
+
+
+</scroll-view>
+<include src="/pages/bottom/bottom" />

@@ -1,0 +1,10 @@
+<view class="container">
+
+	<textarea 
+  placeholder="分享一个树洞吧~" 
+  placeholder-class="placeholder-style" 
+  class="textarea-style" maxlength="-1"
+  bindinput="inputfunc">
+  </textarea>
+	<view class="commit" bindtap="commit">发送</view>
+</view> 

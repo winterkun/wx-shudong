@@ -1,0 +1,59 @@
+/* pages/enroll/enroll.wxss */
+page {
+  left: 0rpx;
+  right: 0rpx;
+  background-color: white;
+}
+
+.container {
+  padding-top: 50rpx;
+}
+
+.outside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 100rpx;
+  background-color: #f2f2f2
+}
+
+.first {
+  margin: 0rpx 5% 0 5%;
+}
+
+.second {
+  margin: 50rpx 5% 0 5%;
+}
+
+.inputholder-class {
+  font-size: 30rpx;
+  color: #cccccc;
+}
+
+.inpt {
+  line-height: 100rpx;
+  font-size: 30rpx;
+  color: black;
+  margin: auto auto auto 20rpx
+}
+
+.enroll {
+  width: 90%;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin: 100rpx 5% 0 5%;
+  background-color: #f76968;
+  text-align: center;
+  color: white;
+  font-size: 33rpx;
+}
+
+.link {
+
+  height: 50rpx;
+  margin: 30rpx 5% auto 5%;
+  color: black;
+
+}

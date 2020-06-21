@@ -1,0 +1,103 @@
+/* pages/square/square.wxss */
+@import '/pages/bottom/bottom';
+
+page {
+  background: #efefef
+}
+
+.scbg {
+  background-color: #efefef;
+  width: 100%;
+  height: 91%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+}
+
+.box {
+  width: 100%;
+  background-color: white;
+  padding-top: 30rpx;
+  border-bottom: 20rpx solid #efefef;
+}
+
+.firstblock {
+  height: 150rpx;
+  width: 92%;
+  margin: 0 4%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.touxiang {
+  width: 130rpx;
+  height: 130rpx;
+}
+
+.person {
+  width: 75%;
+  height: 130rpx;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+
+.name {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 40rpx;
+  flex-direction: row;
+}
+
+.tel {
+  display: flex;
+  flex-direction: flex-start;
+  margin-top: 20rpx;
+}
+
+.showname {
+  font-size: 34rpx;
+  color: #3f5185;
+  font-weight: bold;
+}
+
+.showtime {
+  font-size: 24rpx;
+  font-weight: bold;
+}
+
+.secondblock {
+  margin: 0 4%;
+  padding-bottom: 20rpx;
+  border-bottom: 5rpx solid #888888;
+
+}
+
+.content {
+  word-break: break-all;
+  font-size: 29rpx;
+  color: #101010;
+}
+
+.thirdblock {
+  height: 100rpx;
+  margin: 0 4%;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.like {
+  margin: 2% 4% 0 0%;
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.num {
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-top: 2%;
+
+}

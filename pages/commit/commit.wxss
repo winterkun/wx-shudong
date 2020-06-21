@@ -1,0 +1,32 @@
+/* pages/commit/commit.wxss */
+page {
+  background-color: #c9c9c9;
+}
+
+.container {
+  width: 100%;
+  height: 50%;
+  padding-top: 1%;
+}
+
+.placeholder-style {
+  color: #888888;
+  font-size: 38rpx;
+}
+
+.textarea-style {
+  margin: 0 2%;
+  padding: 1% 2%;
+  width: 90%;
+  background-color: white;
+}
+.commit {
+  width: 90%;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin: 50rpx 5% 0 5%;
+  background-color: #f76968;
+  text-align: center;
+  color: white;
+  font-size: 33rpx;
+}
